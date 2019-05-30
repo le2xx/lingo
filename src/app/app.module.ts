@@ -7,6 +7,7 @@ import { WrapperComponent } from './components/wrapper/wrapper.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LeftSideBarComponent } from './components/left-side-bar/left-side-bar.component';
 import { ContentComponent } from './components/content/content.component';
+import { RightSideBarComponent } from './components/right-side-bar/right-side-bar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ContentComponent } from './components/content/content.component';
     WrapperComponent,
     HeaderComponent,
     LeftSideBarComponent,
-    ContentComponent
+    ContentComponent,
+    RightSideBarComponent
   ],
   imports: [
     BrowserModule,
