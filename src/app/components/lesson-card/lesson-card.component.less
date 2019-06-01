@@ -1,6 +1,8 @@
+@import "~src/app/commons/styles/main";
+
 .lesson-card {
-  width: 830px;
-  height: 720px;
+  width: 770px;
+  height: 660px;
   box-shadow: 0px -4px 7px rgba(238, 238, 238, 0.25),
               0px 4px 7px rgba(238, 238, 238, 0.25),
               -4px 0px 7px rgba(238, 238, 238, 0.25),
@@ -22,6 +24,121 @@
     right: -12px;
     text-align: center;
     line-height: 35px;
-    background: white;
+    background: @white-color;
+  }
+
+  &__header {
+    height: 60px;
+  }
+
+  &__img {
+    background: url('~src/assets/img/lesson_img_1.jpg');
+    width: 190px;
+    height: 190px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: bottom;
+  }
+
+  &__details {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  &__title {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    color: @title-color;
+    font-weight: 700;
+  }
+
+  &__name {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    color: @name-color;
+    margin: 5px 0 6px;
+    letter-spacing: -.02em;
+  }
+
+  &__name-eng {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: @text-color;
+  }
+
+  &__level {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 12px;
+    line-height: 100%;
+    color: @level-color;
+    display: block;
+    margin: 11px 0 31px 0;
+  }
+
+  &__text {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: @text-color;
+    margin: 21px 0;
+  }
+
+  &__separator {
+    background: @separator-color;
+    height: 1px;
+    border: none;
+  }
+
+  &__menu {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 14px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      width: 334px;
+      height: 1px;
+      background: @separator-color;
+      z-index: -1;
+    }
+  }
+
+  &__menu-item {
+    display: inline-block;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    align-items: center;
+    text-align: center;
+    color: @level-color;
+    padding: 13px 10px;
+    margin: 0 15px;
+
+    &_selected {
+      border-bottom: solid 2px #5AB3E4;
+    }
+  }
+
+  &__btn {
+    width: 126px;
+    height: 26px;
+    background: @btn-ground;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: @white-color;
+    margin: 1px;
+
   }
 }
