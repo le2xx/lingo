@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LeftSideBarComponent } from './components/left-side-bar/left-side-bar.component';
 import { ContentComponent } from './components/content/content.component';
 import { RightSideBarComponent } from './components/right-side-bar/right-side-bar.component';
+import { LessonCardComponent } from './components/lesson-card/lesson-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RightSideBarComponent } from './components/right-side-bar/right-side-ba
     HeaderComponent,
     LeftSideBarComponent,
     ContentComponent,
-    RightSideBarComponent
+    RightSideBarComponent,
+    LessonCardComponent
   ],
   imports: [
     BrowserModule,
