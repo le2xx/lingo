@@ -1,0 +1,27 @@
+.font (@size: false; @color: false; @ls: false; @lh: false; @weight: false) {
+  .font-size () when (if(@size = false, false, true)) {
+    font-size: unit(@size, px);
+  }
+
+  .color () when (if(@color = false, false, true)) {
+    color: @color;
+  }
+
+  .ls () when (if(@ls = false, false, true)) {
+    letter-spacing: unit(@ls, em);
+  }
+
+  .lh () when (if(@lh = false, false, true)) {
+    line-height: unit(@lh, px);
+  }
+
+  .weight () when (if(@weight = false, false, true)) {
+    font-weight: @weight;
+  }
+
+  .font-size();
+  .color();
+  .ls();
+  .lh();
+  .weight();
+}
