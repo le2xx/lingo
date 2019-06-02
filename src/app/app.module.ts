@@ -10,6 +10,8 @@ import { ContentComponent } from './components/content/content.component';
 import { RightSideBarComponent } from './components/right-side-bar/right-side-bar.component';
 import { LessonCardComponent } from './components/lesson-card/lesson-card.component';
 import { StatisticsComponent } from './components/statistics/statistics.component';
+import { AuthorComponent } from './components/author/author.component';
+import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { StatisticsComponent } from './components/statistics/statistics.componen
     ContentComponent,
     RightSideBarComponent,
     LessonCardComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    AuthorComponent,
+    BookmarksComponent
   ],
   imports: [
     BrowserModule,

@@ -41,9 +41,6 @@
   top: -12px;
   width: 30px;
 }
-.lesson-card__header {
-  height: 60px;
-}
 .lesson-card__img {
   background: url('~src/assets/img/lesson_img_1.jpg');
   display: inline-block;

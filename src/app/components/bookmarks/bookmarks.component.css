@@ -1,0 +1,21 @@
+.bookmarks {
+  position: absolute;
+  top: 38px;
+  right: 40px;
+}
+.bookmarks__icon {
+  background: url('../../../assets/icons/bookmarks.svg') no-repeat;
+  display: inline-block;
+  height: 22px;
+  margin-right: 31px;
+  vertical-align: middle;
+  width: 18px;
+}
+.bookmarks__menu {
+  background: url('../../../assets/icons/menu.svg') no-repeat;
+  display: inline-block;
+  height: 19px;
+  vertical-align: middle;
+  width: 5px;
+}
+/*# sourceMappingURL=bookmarks.component.css.map */

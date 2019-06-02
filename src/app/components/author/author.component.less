@@ -1,0 +1,30 @@
+@import "../../commons/styles/main";
+
+.author {
+  height: 60px;
+
+  &__photo {
+    background: url('../../../assets/img/autor_1.png') no-repeat;
+    display: inline-block;
+    height: 40px;
+    margin-right: 9px;
+    vertical-align: middle;
+    width: 41px;
+  }
+
+  &__info {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__name {
+    display: block;
+    .font(14; @author-name; false; 14; 500);
+    margin-bottom: 8px;
+  }
+
+  &__time {
+    display: block;
+    .font(14; @time; false; 14; 400);
+  }
+}
