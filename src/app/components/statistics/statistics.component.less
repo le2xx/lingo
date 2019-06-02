@@ -1,0 +1,66 @@
+@import "../../commons/styles/main";
+
+.statistics {
+  margin: 19px 5px 18px;
+
+  &__item {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  &__icon {
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+
+    &_like {
+      background: url('../../../assets/icons/like.svg') no-repeat;
+      height: 20px;
+      width: 22px;
+    }
+
+    &_comment {
+      background: url('../../../assets/icons/comment.svg') no-repeat;
+      height: 20px;
+      width: 22px;
+    }
+
+    &_share {
+      background: url('../../../assets/icons/share.svg') no-repeat;
+      height: 20px;
+      width: 22px;
+    }
+
+    &_rating {
+      background: url('../../../assets/icons/rating.svg') no-repeat;
+      height: 18px;
+      width: 18px;
+    }
+
+    &_shows {
+      background: url('../../../assets/icons/shows.svg') no-repeat;
+      height: 15px;
+      width: 20px;
+    }
+  }
+
+  &__value {
+    .font(14; @stat-color; false; 22; 400);
+    vertical-align: middle;
+
+    &_color_yellow {
+      color: #E7D878
+    }
+
+    &_color_blue {
+      color: #5AB3E4;
+    }
+  }
+
+  &__gap {
+    display: inline-block;
+    width: 368px;
+  }
+}
+
+

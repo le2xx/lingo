@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+  src: url('../../../assets/fonts/SFProDisplay-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 500;
+  src: url('../../../assets/fonts/SFProDisplay-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+  src: url('../../../assets/fonts/SFProDisplay-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 700;
+  src: url('../../../assets/fonts/SFProDisplay-Bold.ttf') format('truetype');
+}
+.statistics {
+  margin: 19px 5px 18px;
+}
+.statistics__item {
+  display: inline-block;
+  margin: 0 15px;
+}
+.statistics__icon {
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.statistics__icon_like {
+  background: url('../../../assets/icons/like.svg') no-repeat;
+  height: 20px;
+  width: 22px;
+}
+.statistics__icon_comment {
+  background: url('../../../assets/icons/comment.svg') no-repeat;
+  height: 20px;
+  width: 22px;
+}
+.statistics__icon_share {
+  background: url('../../../assets/icons/share.svg') no-repeat;
+  height: 20px;
+  width: 22px;
+}
+.statistics__icon_rating {
+  background: url('../../../assets/icons/rating.svg') no-repeat;
+  height: 18px;
+  width: 18px;
+}
+.statistics__icon_shows {
+  background: url('../../../assets/icons/shows.svg') no-repeat;
+  height: 15px;
+  width: 20px;
+}
+.statistics__value {
+  font-size: 14px;
+  color: #A9ADB7;
+  line-height: 22px;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.statistics__value_color_yellow {
+  color: #E7D878;
+}
+.statistics__value_color_blue {
+  color: #5AB3E4;
+}
+.statistics__gap {
+  display: inline-block;
+  width: 368px;
+}
+/*# sourceMappingURL=statistics.component.css.map */

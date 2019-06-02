@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 400;
+  src: url('../../../assets/fonts/SFProDisplay-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 500;
+  src: url('../../../assets/fonts/SFProDisplay-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 600;
+  src: url('../../../assets/fonts/SFProDisplay-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SF Pro Display';
+  font-weight: 700;
+  src: url('../../../assets/fonts/SFProDisplay-Bold.ttf') format('truetype');
+}
+.left-side-bar {
+  display: inline-block;
+  width: 225px;
+  background: #F7F7F7;
+}
+@media (max-width: 1440px) {
+  .left-side-bar {
+    display: none;
+  }
+}
+/*# sourceMappingURL=left-side-bar.component.css.map */
