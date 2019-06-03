@@ -4,7 +4,7 @@
     "original": "Фрукты и овощи",
     "translated": "Fruits and vegetables"
   },
-  "picture": "https://picsum.photos/id/324/200/200",
+  "picture": "assets/img/lesson_img_1.jpg",
   "difficult": 2,
   "description": "Решили выучить английский язык? Безусловно, вы сделали правильный выбор, ведь английский язык - главный язык международного общения. Ежедневно поддерживай форму! Используй словарный тренажёр всего. Ежедневно поддерживай форму! Используй словарный тренажёр всего несколько месяцев, вы почувствуете результат",
   "tableOfContents": [
@@ -32,7 +32,7 @@
     {
       "id": 0,
       "author": {
-        "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+        "avatarUrl": "assets/img/author_1.png",
         "firstName": "Anna",
         "lastName": "Dormund"
       },
@@ -44,7 +44,7 @@
     {
       "id": 1,
       "author": {
-        "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+        "avatarUrl": "assets/img/author_1.png",
         "firstName": "Anna",
         "lastName": "Dormund"
       },
@@ -55,7 +55,7 @@
     }
   ],
   "author": {
-    "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+    "avatarUrl": "assets/img/author_1.png",
     "firstName": "Anna",
     "lastName": "Dormund"
   },

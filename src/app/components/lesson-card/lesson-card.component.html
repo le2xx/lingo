@@ -1,7 +1,7 @@
 <div class="lesson-card">
   <app-author [lesson]="lesson"></app-author>
   <app-bookmarks></app-bookmarks>
-  <div class="lesson-card__img"></div>
+  <img src="{{ lesson.picture }}" alt="picture" class="lesson-card__img">
   <div class="lesson-card__details">
     <span class="lesson-card__title">Урок</span>
     <h2 class="lesson-card__name">{{ lesson.title.original }}</h2>
