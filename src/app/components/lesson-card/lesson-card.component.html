@@ -1,12 +1,12 @@
 <div class="lesson-card">
-  <app-author></app-author>
+  <app-author [lesson]="lesson"></app-author>
   <app-bookmarks></app-bookmarks>
   <div class="lesson-card__img"></div>
   <div class="lesson-card__details">
     <span class="lesson-card__title">Урок</span>
-    <h2 class="lesson-card__name">Фрукты и овощи</h2>
-    <span class="lesson-card__name-eng">Fruits and vegetables</span>
-    <span class="lesson-card__level">Средний уровень</span>
+    <h2 class="lesson-card__name">{{ lesson.title.original }}</h2>
+    <span class="lesson-card__name-eng">{{ lesson.title.translated }}</span>
+    <span class="lesson-card__level">{{ lesson.difficult > 1 ? 'Средний уровень' : 'Начальный уровень' }}</span>
     <ul class="lesson-card__menu">
       <li class="lesson-card__menu-item lesson-card__menu-item_selected">Об уроке</li>
       <li class="lesson-card__menu-item">Содержание</li>
@@ -14,12 +14,10 @@
     </ul>
     <button class="lesson-card__btn">Начать урок</button>
   </div>
-  <p class="lesson-card__text">Решили выучить английский язык? Безусловно, вы сделали правильный выбор,
-    ведь английский язык - главный язык международного общения. Ежедневно поддерживай форму! Используй словарный
-    тренажёр всего. Ежедневно поддерживай форму! Используй словарный тренажёр всего...
+  <p class="lesson-card__text">{{ cutText(lesson.description) }}
   </p>
   <hr class="lesson-card__separator">
-  <app-statistics></app-statistics>
+  <app-statistics [lesson]="lesson"></app-statistics>
   <hr class="lesson-card__separator">
-  <app-comments></app-comments>
+  <app-comments [lesson]="lesson"></app-comments>
 </div>

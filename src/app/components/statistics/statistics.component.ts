@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-statistics',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./statistics.component.less']
 })
 export class StatisticsComponent implements OnInit {
+  @Input() lesson: any;
 
   constructor() { }
 

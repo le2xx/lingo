@@ -1,0 +1,63 @@
+{
+  "type": "exercise",
+  "title": {
+    "original": "Фрукты и овощи",
+    "translated": "Fruits and vegetables"
+  },
+  "picture": "https://picsum.photos/id/324/200/200",
+  "difficult": 2,
+  "description": "Решили выучить английский язык? Безусловно, вы сделали правильный выбор, ведь английский язык - главный язык международного общения. Ежедневно поддерживай форму! Используй словарный тренажёр всего. Ежедневно поддерживай форму! Используй словарный тренажёр всего несколько месяцев, вы почувствуете результат",
+  "tableOfContents": [
+    {
+      "id": 0,
+      "title": "Главай 1",
+      "description": "Описание первой главы"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 0,
+      "title": "Упраженние 1",
+      "description": "Описание первого упражнения"
+    }
+  ],
+  "stats": {
+    "likesCount": 34,
+    "commentsCount": 34,
+    "sharesCount": 34,
+    "viewsCount": 234,
+    "rating": 3.4
+  },
+  "comments": [
+    {
+      "id": 0,
+      "author": {
+        "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+        "firstName": "Anna",
+        "lastName": "Dormund"
+      },
+      "comment": {
+        "text": "Отличный урок, спасибо! Отличный урок, спасибо! Отличный урок, спасибо! ",
+        "time": "14:55 pm"
+      }
+    },
+    {
+      "id": 1,
+      "author": {
+        "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+        "firstName": "Anna",
+        "lastName": "Dormund"
+      },
+      "comment": {
+        "text": "Отличный урок, спасибо!",
+        "time": "14:55 pm"
+      }
+    }
+  ],
+  "author": {
+    "avatarUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+    "firstName": "Anna",
+    "lastName": "Dormund"
+  },
+  "time": "14:55 pm"
+}

@@ -1,17 +1,17 @@
 <div class="comments">
   <div class="comments__wrap">
 
-    <div class="comments__item">
+    <div class="comments__item" *ngFor="let comment of lesson.comments">
       <div class="comments__photo"></div>
       <div class="comments__info">
-        <span class="comments__name">Anna Dormund</span>
-        <span class="comments__text">Отличный урок, спасибо! Отличный урок, спасибо! Отличный урок, спасибо! </span>
-        <span class="comments__time">14:55 pm</span>
+        <span class="comments__name">{{ comment.author.firstName + ' ' + comment.author.lastName}}</span>
+        <span class="comments__text">{{ comment.comment.text }}</span>
+        <span class="comments__time">{{ comment.comment.time }}</span>
       </div>
       <hr class="comments__separator">
     </div>
 
-    <div class="comments__item">
+    <!--<div class="comments__item">
       <div class="comments__photo"></div>
       <div class="comments__info">
         <span class="comments__name">Anna Dormund</span>
@@ -19,7 +19,7 @@
         <span class="comments__time">14:55 pm</span>
       </div>
       <hr class="comments__separator">
-    </div>
+    </div>-->
 
     <p class="comments__next">Показать следующие комментарии</p>
 
