@@ -1,0 +1,95 @@
+@import "../../commons/styles/main";
+
+.comments {
+  display: block;
+
+  &__item {
+    margin: 13px 0;
+  }
+
+  &__photo {
+    background: url('../../../assets/img/autor_1.png') no-repeat;
+    display: inline-block;
+    height: 40px;
+    margin-right: 9px;
+    vertical-align: middle;
+    width: 41px;
+  }
+
+  &__info {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &__name {
+    display: block;
+    .font(14; @author-name; false; 14; 500);
+  }
+
+  &__text {
+    .font(14; @text-color; false; 26; 400);
+  }
+
+  &__time {
+    display: block;
+    .font(14; @time; false; 14; 400);
+  }
+
+  &__separator {
+    background: @separator-color;
+    border: none;
+    height: 1px;
+    margin: 14px 0 0;
+  }
+
+  &__next {
+    text-align: center;
+    .font(14; @next-color; false; 2; 400);
+  }
+
+  &__form {
+    margin: auto;
+  }
+
+  &__form-contour {
+    border: 1px solid rgba(170, 170, 170, .5);
+    border-radius: 10px;
+    display: inline-block;
+    height: 28px;
+    margin: 5px 24px 0 0;
+    opacity: .5;
+    padding: 6px 12px;
+    vertical-align: middle;
+    width: 676px;
+  }
+
+  &__clip {
+    background: url('../../../assets/icons/clip.svg') no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    margin-right: 14px;
+    vertical-align: middle;
+    width: 22px;
+  }
+
+  &__input {
+    border: none;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    width: 600px;
+    .font(16; @stat-color; false; 22; 400);
+  }
+
+  &__btn {
+    background: url('../../../assets/icons/submit.svg') no-repeat;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 23px;
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 24px;
+  }
+}

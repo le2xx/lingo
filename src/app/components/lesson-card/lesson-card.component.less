@@ -3,9 +3,9 @@
 .lesson-card {
   border-radius: 10px;
   box-shadow: 0 -4px 7px rgba(238, 238, 238, .25),
-              0 4px 7px rgba(238, 238, 238, .25),
-              -4px 0 7px rgba(238, 238, 238, .25),
-              4px 0 7px rgba(238, 238, 238, .25);
+    0 4px 7px rgba(238, 238, 238, .25),
+    -4px 0 7px rgba(238, 238, 238, .25),
+    4px 0 7px rgba(238, 238, 238, .25);
   height: 660px;
   margin: 34px auto 0;
   padding: 30px;
@@ -17,8 +17,9 @@
     cursor: pointer;
     background: @white-color;
     border-radius: 50%;
-    box-shadow: 4px 0 4px rgba(204, 204, 204, .25),
-                0 -4px 4px rgba(204, 204, 204, .25);
+    box-shadow:
+      4px 0 4px rgba(204, 204, 204, .25),
+      0 -4px 4px rgba(204, 204, 204, .25);
     height: 30px;
     line-height: 35px;
     position: absolute;
@@ -47,8 +48,8 @@
   }
 
   &__name {
-    .font(24; @name-color; false; false; 600);
     margin: 2px 0 6px;
+    .font(24; @name-color; false; false; 600);
   }
 
   &__name-eng {
@@ -57,13 +58,13 @@
 
   &__level {
     display: block;
-    .font(12; @level-color; false; 12; 400);
     margin: 12px 0 31px 0;
+    .font(12; @level-color; false; 12; 400);
   }
 
   &__text {
-    .font(14; @text-color; false; 22; 400);
     margin: 21px 0;
+    .font(14; @text-color; false; 22; 400);
   }
 
   &__separator {
@@ -95,13 +96,13 @@
     align-items: center;
     cursor: pointer;
     display: inline-block;
-    .font(14; @level-color; false; 14; 400);
     margin: 0 15px;
     padding: 13px 9px;
     text-align: center;
+    .font(14; @level-color; false; 14; 400);
 
     &_selected {
-      border-bottom: solid 2px #5AB3E4;
+      border-bottom: solid 2px @title-color;
       font-weight: 500;
     }
   }
@@ -111,10 +112,10 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    .font(12; @white-color; false; 12; 500);
     height: 26px;
     margin: 7px;
     outline: none;
     width: 126px;
+    .font(12; @white-color; false; 12; 500);
   }
 }

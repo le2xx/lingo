@@ -12,6 +12,7 @@ import { LessonCardComponent } from './components/lesson-card/lesson-card.compon
 import { StatisticsComponent } from './components/statistics/statistics.component';
 import { AuthorComponent } from './components/author/author.component';
 import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
+import { CommentsComponent } from './components/comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
     LessonCardComponent,
     StatisticsComponent,
     AuthorComponent,
-    BookmarksComponent
+    BookmarksComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
