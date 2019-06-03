@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import {Lesson} from '../../commons/interfaces/lesson';
 
 @Component({
   selector: 'app-author',
@@ -6,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./author.component.less']
 })
 export class AuthorComponent implements OnInit {
-  @Input() lesson: any;
+  @Input() lesson: Lesson;
 
   constructor() { }
 

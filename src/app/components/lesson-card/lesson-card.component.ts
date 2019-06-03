@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient, HttpErrorResponse} from '@angular/common/http';
+import {Lesson} from '../../commons/interfaces/lesson';
 
 @Component({
   selector: 'app-lesson-card',
@@ -7,12 +8,12 @@ import {HttpClient, HttpErrorResponse} from '@angular/common/http';
   styleUrls: ['./lesson-card.component.less']
 })
 export class LessonCardComponent implements OnInit {
-  lesson: any;
+  lesson: Lesson;
   url = 'assets/jsons/lesson.json';
 
   constructor(private http: HttpClient) {
     this.http.get(this.url).subscribe(
-      data => this.lesson = data,
+      data => this.lesson = data as Lesson,
       (err: HttpErrorResponse) => {
         console.log(err.message);
       });
