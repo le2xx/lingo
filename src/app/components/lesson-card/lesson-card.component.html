@@ -1,6 +1,16 @@
 <div class="lesson-card">
-  <app-author [lesson]="lesson"></app-author>
+
+  <div class="lesson-card__author">
+    <img src="{{lesson.author.avatarUrl}}" alt="ava" class="lesson-card__author-photo">
+    <div class="lesson-card__info">
+      <span class="lesson-card__author-name">{{ lesson.author.firstName +  ' ' + lesson.author.lastName }}</span>
+      <span class="lesson-card__lesson-time">{{ lesson.time }}</span>
+    </div>
+  </div>
+
   <app-bookmarks></app-bookmarks>
+  <app-lesson-card-menu></app-lesson-card-menu>
+
   <img src="{{ lesson.picture }}" alt="picture" class="lesson-card__img">
   <div class="lesson-card__details">
     <span class="lesson-card__title">Урок</span>
@@ -14,10 +24,11 @@
     </ul>
     <button class="lesson-card__btn">Начать урок</button>
   </div>
-  <p class="lesson-card__text">{{ cutText(lesson.description) }}
-  </p>
+  <p class="lesson-card__text">{{ cutText(lesson.description) }}</p>
   <hr class="lesson-card__separator">
-  <app-statistics [lesson]="lesson"></app-statistics>
+
+  <app-statistics [stats]="lesson.stats"></app-statistics>
   <hr class="lesson-card__separator">
-  <app-comments [lesson]="lesson"></app-comments>
+
+  <app-comments [comments]="lesson.comments"></app-comments>
 </div>

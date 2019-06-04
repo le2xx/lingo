@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Lesson} from '../../commons/interfaces/lesson';
+import {Comment} from '../../commons/interfaces/comment';
 
 @Component({
   selector: 'app-comments',
@@ -7,7 +7,7 @@ import {Lesson} from '../../commons/interfaces/lesson';
   styleUrls: ['./comments.component.less']
 })
 export class CommentsComponent implements OnInit {
-  @Input() lesson: Lesson;
+  @Input() comments: Comment[];
 
   constructor() { }
 

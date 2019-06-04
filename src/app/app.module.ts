@@ -11,9 +11,9 @@ import { ContentComponent } from './components/content/content.component';
 import { RightSideBarComponent } from './components/right-side-bar/right-side-bar.component';
 import { LessonCardComponent } from './components/lesson-card/lesson-card.component';
 import { StatisticsComponent } from './components/statistics/statistics.component';
-import { AuthorComponent } from './components/author/author.component';
 import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
 import { CommentsComponent } from './components/comments/comments.component';
+import { LessonCardMenuComponent } from './components/lesson-card-menu/lesson-card-menu.component';
 
 @NgModule({
   declarations: [
@@ -25,9 +25,9 @@ import { CommentsComponent } from './components/comments/comments.component';
     RightSideBarComponent,
     LessonCardComponent,
     StatisticsComponent,
-    AuthorComponent,
     BookmarksComponent,
-    CommentsComponent
+    CommentsComponent,
+    LessonCardMenuComponent
   ],
   imports: [
     BrowserModule,

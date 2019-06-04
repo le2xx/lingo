@@ -1,7 +1,7 @@
 <div class="comments">
   <div class="comments__wrap">
 
-    <div class="comments__item" *ngFor="let comment of lesson.comments">
+    <div class="comments__item" *ngFor="let comment of comments">
       <img src="{{ comment.author.avatarUrl }}" class="comments__photo">
       <div class="comments__info">
         <span class="comments__name">{{ comment.author.firstName + ' ' + comment.author.lastName}}</span>
